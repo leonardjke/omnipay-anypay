@@ -3,7 +3,7 @@
     "description": "Anypay gateway for Omnipay payment processing library",
     "keywords": [
         "omnipay",
-        "anypay",
+        "anypay"
     ],
     "homepage": "https://github.com/leonardjke/omnipay-anypay",
     "license": "MIT",

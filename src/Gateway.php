@@ -86,6 +86,16 @@ class Gateway extends AbstractGateway
         return $this->setParameter('signature', $value);
     }
 
+    public function setMd5Signature()
+    {
+        return $this->setParameter('signature', 'md5');
+    }
+
+    public function setSha256Signature()
+    {
+        return $this->setParameter('signature', 'sha256');
+    }
+
     /**
      * @param  array  $parameters
      *

@@ -10,9 +10,14 @@ trait FieldsTrait
         return $this->get('merchant_id');
     }
 
-    public function getTransactionId()
+    public function getTransactionReference()
     {
         return $this->get('transaction_id');
+    }
+
+    public function getTransactionId()
+    {
+        return $this->getPayId();
     }
 
     public function getPayId()
